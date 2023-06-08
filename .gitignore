@@ -1,0 +1,6 @@
+venv/
+env/
+password.py
+.env
+.venv
+__pycache__/
