@@ -1,7 +1,5 @@
 from aiogram import Bot, Dispatcher, types, executor
-# from aiogram.dispatcher.filters.state import 
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
-# from aiogram.dispatcher.storage import FSMContext
 from aiogram.types import KeyboardButton, ReplyKeyboardMarkup
 from login import token
 import sqlite3
