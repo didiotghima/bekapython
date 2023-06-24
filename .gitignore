@@ -4,5 +4,5 @@ password.py
 .env
 .venv
 __pycache__/
-login.py
+password2.py
 .gitignore

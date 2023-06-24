@@ -14,7 +14,7 @@ async def select(message:types.Message):
         number = random.randint(1,3)
         user = int(message.text)
         if user ==number:
-               await message.answer(f"Вы угадали. Бот выбрал: {number}")
+            await message.answer(f"Вы угадали. Бот выбрал: {number}")
         else:
             await message.reply(f" Вы проиграли. Бот выбрал: {number}")
 

@@ -1,8 +1,7 @@
 from aiogram import Bot, Dispatcher, types, executor
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.types import KeyboardButton, ReplyKeyboardMarkup
-from login import token
-import sqlite3
+from password2 import token
 import logging
 
 bot = Bot(token)
@@ -31,8 +30,8 @@ async def beckend(message:types.Message):
 Длительность обучения: 5 месяцев.""")
 
 @dp.message_handler(commands='frontend')
-async def frontend(messge:types.Message):
-    await messge.answer("""Frontend разработчик -  Фронтенд — «лицо» системы; инструменты и компоненты, которые позволяют пользователю взаимодействовать с сайтом.
+async def frontend(message:types.Message):
+    await message.answer("""Frontend разработчик -  Фронтенд — «лицо» системы; инструменты и компоненты, которые позволяют пользователю взаимодействовать с сайтом.
 Стоимость курса: 10.000 сомов в месяц
 Длитеоьность обучение: 5 месяцев""")
 
